@@ -1,0 +1,24 @@
+{
+  "session": {
+    "key": "koa:sess",
+    "maxAge": "session",
+    "overwrite": true,
+    "httpOnly": true,
+    "signed": false,
+    "rolling": false,
+    "renew": false
+  },
+  "mail": {
+    "subject": "Сообщение с сайта",
+    "smtp": {
+      "host": "smtp.gmail.com",
+      "port": 465,
+      "secure": true,
+      "auth": {
+        "user": "anirikondrateva@gmail.com",
+        "pass": "roxyfoxy1932"
+      }
+    }
+  },
+  "upload": "./public/upload"
+}
